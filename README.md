@@ -49,7 +49,7 @@ npm install
 npm start
 ```
 
-The application will be available at `http://localhost:3000`
+The application will be available at https://alphaversegallery.netlify.app/
 
 ## 📖 Usage Guide
 
@@ -57,16 +57,11 @@ The application will be available at `http://localhost:3000`
    - Scroll through the gallery to view all images
    - Use the grid layout for optimal viewing
 
-2. **Uploading Images**
-   - Click the upload button
-   - Select images from your device
-   - Wait for the upload to complete
-
-3. **Searching and Filtering**
+2. **Searching and Filtering**
    - Use the search bar to find specific images
    - Apply filters to organize images by category
 
-4. **Viewing Images**
+3. **Viewing Images**
    - Click on any image to view it in full size
    - Use zoom controls for detailed viewing
 
@@ -84,8 +79,7 @@ We welcome contributions! Here's how you can help:
 
 Naresh - naresh.bb24@gmail.com
 
-Project Link: [https://github.com/nares/CodeAlpha_ImageGallery](https://github.com/nares/CodeAlpha_ImageGallery)
-
+Project Link: https://alphaversegallery.netlify.app/
 ## 🙏 Acknowledgments
 
 - Thanks to all contributors
