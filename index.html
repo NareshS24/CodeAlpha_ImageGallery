@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoVerse - Explore Bikes, Cars & Trucks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-switch">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <div class="container">
+        <h1 class="title">AutoVerse Gallery</h1>
+        
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="bike">Bikes</button>
+            <button class="filter-btn" data-filter="car">Cars</button>
+            <button class="filter-btn" data-filter="truck">Trucks</button>
+        </div>
+
+        <div class="gallery">
+            <!-- Bikes -->
+            <div class="gallery-item bike" data-title="Yamaha R15 V4">
+                <img src="images/bike1.jpg" alt="Bike 1">
+                <div class="category-badge">Bike</div>
+                <div class="item-overlay">
+                    <h3>Yamaha R15 V4</h3>
+                </div>
+            </div>
+            <div class="gallery-item bike" data-title="Kawasaki Ninja">
+                <img src="images/bike2.jpg" alt="Bike 2">
+                <div class="category-badge">Bike</div>
+                <div class="item-overlay">
+                    <h3>Kawasaki Ninja</h3>
+                </div>
+            </div>
+            <div class="gallery-item bike" data-title="Ducati Panigale">
+                <img src="images/bike3.jpg" alt="Bike 3">
+                <div class="category-badge">Bike</div>
+                <div class="item-overlay">
+                    <h3>Ducati Panigale</h3>
+                </div>
+            </div>
+            <div class="gallery-item bike" data-title="BMW S1000RR">
+                <img src="images/bike4.jpg" alt="Bike 4">
+                <div class="category-badge">Bike</div>
+                <div class="item-overlay">
+                    <h3>BMW S1000RR</h3>
+                </div>
+            </div>
+
+            <!-- Cars -->
+            <div class="gallery-item car" data-title="Mercedes-Benz S-Class">
+                <img src="images/car1.jpg" alt="Car 1">
+                <div class="category-badge">Car</div>
+                <div class="item-overlay">
+                    <h3>Mercedes-Benz S-Class</h3>
+                </div>
+            </div>
+            <div class="gallery-item car" data-title="BMW M5">
+                <img src="images/car2.jpg" alt="Car 2">
+                <div class="category-badge">Car</div>
+                <div class="item-overlay">
+                    <h3>BMW M5</h3>
+                </div>
+            </div>
+            <div class="gallery-item car" data-title="Audi RS7">
+                <img src="images/car3.jpg" alt="Car 3">
+                <div class="category-badge">Car</div>
+                <div class="item-overlay">
+                    <h3>Audi RS7</h3>
+                </div>
+            </div>
+            <div class="gallery-item car" data-title="Porsche 911">
+                <img src="images/car4.jpg" alt="Car 4">
+                <div class="category-badge">Car</div>
+                <div class="item-overlay">
+                    <h3>Porsche 911</h3>
+                </div>
+            </div>
+
+            <!-- Trucks -->
+            <div class="gallery-item truck" data-title="Volvo FH16">
+                <img src="images/truck1.jpg" alt="Truck 1">
+                <div class="category-badge">Truck</div>
+                <div class="item-overlay">
+                    <h3>Volvo FH16</h3>
+                </div>
+            </div>
+            <div class="gallery-item truck" data-title="Scania R500">
+                <img src="images/truck2.jpg" alt="Truck 2">
+                <div class="category-badge">Truck</div>
+                <div class="item-overlay">
+                    <h3>Scania R500</h3>
+                </div>
+            </div>
+            <div class="gallery-item truck" data-title="Mercedes Actros">
+                <img src="images/truck3.jpg" alt="Truck 3">
+                <div class="category-badge">Truck</div>
+                <div class="item-overlay">
+                    <h3>Mercedes Actros</h3>
+                </div>
+            </div>
+            <div class="gallery-item truck" data-title="MAN TGX">
+                <img src="images/truck4.jpg" alt="Truck 4">
+                <div class="category-badge">Truck</div>
+                <div class="item-overlay">
+                    <h3>MAN TGX</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <button class="lightbox-nav prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-nav next"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img">
+            <h3 class="lightbox-title"></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
