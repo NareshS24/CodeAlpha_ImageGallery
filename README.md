@@ -14,7 +14,6 @@ A modern and responsive image gallery web application that allows users to brows
 
 ## 🛠️ Technologies Used
 
-- React.js
 - TypeScript
 - CSS3/SCSS
 - HTML5
@@ -81,13 +80,9 @@ We welcome contributions! Here's how you can help:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📧 Contact
 
-Nares - [Your Email]
+Naresh - naresh.bb24@gmail.com
 
 Project Link: [https://github.com/nares/CodeAlpha_ImageGallery](https://github.com/nares/CodeAlpha_ImageGallery)
 
